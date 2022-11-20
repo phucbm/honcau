@@ -2,7 +2,7 @@
   "name": "honcau",
   "outputFilename": "honcau",
   "prettyName": "HonCau",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Base CSS for open source developing.",
   "homepage": "https://github.com/phucbm/honcau",
   "repository": {
@@ -20,6 +20,7 @@
   ],
   "main": "./dist/honcau.min.css",
   "files": [
+    "./dist/honcau.min.css",
     "public/**/*"
   ],
   "license": "MIT",

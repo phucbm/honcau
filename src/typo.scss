@@ -1,3 +1,9 @@
+@import "variables";
+
 hr {
-  border-top: 1px solid #000;
+  border-top: 1px solid $color-border;
+
+  &.bold {
+    border-width: 2px;
+  }
 }

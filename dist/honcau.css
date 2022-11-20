@@ -1,6 +1,36 @@
+/*!
+ * HonCau v0.0.1
+ * Base CSS for open source developing.
+ * https://github.com/phucbm/honcau
+ * Copyright (c) 2022 Phuc Bui
+ */
 /**
  * Variables
  */
+* {
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  color: #254440;
+  font-size: 16px;
+  font-family: "IBM Plex Sans", sans-serif;
+  margin: 0;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.mb {
+  margin-bottom: 40px;
+}
+
 @font-face {
   font-family: "IBM Plex Sans";
   src: url("../public/fonts/IBMPlexSans-Italic.woff2") format("woff2"), url("../public/fonts/IBMPlexSans-Italic.woff") format("woff");
@@ -96,28 +126,4 @@ hr.bold {
   left: 100%;
   border-top: 1px solid #e0e7ee;
   width: 100vw;
-}
-
-* {
-  box-sizing: border-box;
-  border: none;
-}
-
-body {
-  color: #254440;
-  font-size: 16px;
-  font-family: "IBM Plex Sans", sans-serif;
-  margin: 0;
-  line-height: 1.7;
-}
-
-.container {
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 20px;
-}
-
-.mb {
-  margin-bottom: 40px;
 }

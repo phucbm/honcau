@@ -1,14 +1,19 @@
 @import "fonts";
 @import "typo";
+@import "buttons";
+@import "extras";
 
 /**
  * Variables
  */
-$font-size: 1rem;
+$font-size: 18px;
 $font-family: 'IBM Plex Sans', sans-serif;
 $page-width: 768px;
-$color-primary: #f1c400;
-$color-on-primary: #141414;
+
+$color-text: #254440;
+$color-primary: #007bfe;
+$color-secondary: #718096;
+$color-on-primary: #fff;
 
 * {
   box-sizing: border-box;
@@ -16,9 +21,11 @@ $color-on-primary: #141414;
 }
 
 body {
+  color: $color-text;
+  font-size: $font-size;
   font-family: $font-family;
-  padding: 20px;
   margin: 0;
+  line-height: 1.7;
 }
 
 .container {

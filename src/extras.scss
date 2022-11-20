@@ -1,0 +1,18 @@
+.heading-separator {
+  position: relative;
+  overflow: hidden;
+
+  span {
+    position: relative;
+    padding-right: 20px;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 100%;
+      border-top: 1px solid #ecc;
+      width: 100vw;
+    }
+  }
+}

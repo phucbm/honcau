@@ -1,8 +1,8 @@
 /*!
- * HonCau v0.0.2
+ * HonCau v0.0.3
  * Base CSS for open source developing.
  * https://github.com/phucbm/honcau
- * Copyright (c) 2022 Phuc Bui
+ * Copyright (c) 2023 Phuc Bui
  */
 /**
  * Variables
@@ -126,4 +126,36 @@ hr.bold {
   left: 100%;
   border-top: 1px solid #e0e7ee;
   width: 100vw;
+}
+
+/**
+ * Variables
+ */ /* Snippet */
+.code-snippet {
+  border: 1px solid #e0e7ee;
+  padding: 20px;
+  overflow: auto;
+}
+
+/* custom scrollbar */
+/* Works on Chrome, Edge, and Safari */
+.code-snippet::-webkit-scrollbar {
+  width: 7px;
+  height: 3px;
+}
+
+.code-snippet::-webkit-scrollbar-track {
+  background: #e0e7ee;
+}
+
+.code-snippet::-webkit-scrollbar-thumb {
+  background-color: #007bfe;
+}
+
+/* Inline code */
+code {
+  background: #eee;
+  padding: 0.1em 0.15em;
+  border-radius: 5px;
+  display: inline-block;
 }

@@ -14,7 +14,7 @@
     <h1 data-title>Webpack Library Boilerplate</h1>
     <p data-description></p>
 
-    <section>
+    <section class="mb">
 
         <h2 class="heading-separator"><span>Headings</span></h2>
 
@@ -27,10 +27,10 @@
 
     </section>
 
-    <section>
+    <section class="mb">
 
         <h2 class="heading-separator"><span>Buttons</span></h2>
-
+        <p><code>.btn.red {}</code></p>
         <div class="btn-group">
             <button class="btn">Button</button>
             <button class="btn red">Button</button>
@@ -38,6 +38,26 @@
             <button class="btn blue">Button</button>
         </div>
 
+    </section>
+
+    <section class="mb">
+        <h2 class="heading-separator"><span>Code snippets</span></h2>
+        <p><code>.code-snippet {}</code></p>
+        <pre class="code-snippet">
+const locations = [
+    {"address": "446 Lý Thường Kiệt, Phường 7, Tân Bình, Thành phố Hồ Chí Minh, Vietnam"},
+    {"address": "265 Âu Cơ, Phường 5, Quận 11, Thành phố Hồ Chí Minh, Vietnam"},
+    {"address": "1-3 Ngô Gia Tự, Phường 2, Quận 10, Thành phố Hồ Chí Minh 700000, Vietnam"},
+    {"address": "221 Nguyễn Thái Học, Phường Cầu Ông Lãnh, Quận 1, Thành phố Hồ Chí Minh, Vietnam"},
+];
+const storeLocator = EasyStoreLocator.init({
+    target: '.default-store-locator',
+    locations,
+    onAfterInit: (context) => {
+        console.log(context.locations)
+    }
+});
+        </pre>
     </section>
 
 </div>
